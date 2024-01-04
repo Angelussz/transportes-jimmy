@@ -1,0 +1,69 @@
+
+:root{
+    --texto-titulo: 'Nobile', sans-serif;
+    --texto-subtitulo: 'Gudea', sans-serif;
+    --texto-parrafos: 'Metrophobic', sans-serif;
+
+    /* Colores empresa */
+    --color-jimmy-empresa1: #18AB60;
+    --color-jimmy-empresa2:#F39200;
+
+    /* Colores Jimmy1 */
+    --color-jimmy1-50: #EFFAF5;
+    --color-jimmy1-100:#D8F3E4;
+    --color-jimmy1-200:#B4E6CD;
+    --color-jimmy1-300:#7FD1AE;
+    --color-jimmy1-400:#4FB88F;
+    --color-jimmy1-500:#2D9C74;
+    --color-jimmy1-600:#1E7D5D;
+    --color-jimmy1-700:#18644C;
+    --color-jimmy1-800:#15503D;
+    --color-jimmy1-900:#124234;
+    --color-jimmy1-950:#09251D;
+
+    /* Colores Jimmy2 */
+    --color-jimmy2-50: #EDFCF4;
+    --color-jimmy2-100:#D4F7E2;
+    --color-jimmy2-200:#ACEECB;
+    --color-jimmy2-300:#59D99C;
+    --color-jimmy2-400:#3EC98B;
+    --color-jimmy2-500:#1AAF71;
+    --color-jimmy2-600:#0E8D5C;
+    --color-jimmy2-700:#0B714C;
+    --color-jimmy2-800:#0C593E;
+    --color-jimmy2-900:#0A4A34;
+    --color-jimmy2-950:#05291E;
+
+    /* Colores Jimmy3 */
+    --color-jimmy3-50: #F2FBF5;
+    --color-jimmy3-100:#E0F8E8;
+    --color-jimmy3-200:#C2F0D3;
+    --color-jimmy3-300:#92E3B0;
+    --color-jimmy3-400:#5CCC87;
+    --color-jimmy3-500:#35B265;
+    --color-jimmy3-600:#299B55;
+    --color-jimmy3-700:#227341;
+    --color-jimmy3-800:#1F5C37;
+    --color-jimmy3-900:#1B4C30;
+    --color-jimmy3-950:#0A2918;
+
+}
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+h1,h2,h3{
+    font-family: var(--texto-titulo);
+    text-align: center;
+}
+
+
+h4,h5,h6{
+    font-family: var(--texto-subtitulo);
+}
+
+p{
+    font-family: var(--texto-parrafos);
+}

@@ -1,0 +1,5 @@
+export * from './Campain'
+export * from './Contact'
+export * from './Corporative'
+export * from './Home'
+export * from './TermsAndConditions'

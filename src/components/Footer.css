@@ -1,0 +1,19 @@
+footer{
+    background-color: var(--color-jimmy2-700);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    color: var(--color-jimmy2-100);
+}
+footer img{
+    width: 50%;
+}
+footer a{
+    display: block;
+    text-decoration: none;
+    color: var(--color-jimmy1-100);
+    padding: 0.5rem;
+    margin: 0 0.5rem;
+    border-radius: 0.5rem;
+}

@@ -1,0 +1,15 @@
+.social{
+    background-color: var(--color-jimmy1-100);
+}
+.social h3{
+    color: var(--color-jimmy2-500);
+}
+.social a{
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.social img{
+    width: 70px;
+}
