@@ -1,15 +1,22 @@
-.why{
-    background: var(--color-jimmy1-600);
-    color: var(--color-jimmy1-100);
-    position: relative;
-    text-align: center;
+.why {
+  background: var(--color-jimmy1-600);
+  color: var(--color-jimmy1-100);
+  position: relative;
+  text-align: center;
 }
-.why .title{
-    font-family: var(--texto-subtitulo);
-    position: relative;
-    top: -12px;
+.why .title {
+  font-family: var(--texto-subtitulo);
+  position: relative;
+  top: -12px;
 }
-.title p{
-    background-color: var(--color-jimmy2-500);
-    width: 60%;
+.title p {
+  background-color: var(--color-jimmy2-500);
+  width: 60%;
+  /* color: red; */
+  @media (min-width: 576px) {
+    font-size: 20px;
+  }
+  @media (min-width: 768px) {
+    font-size: 24px;
+  }
 }

@@ -3,7 +3,7 @@ import { FaPhoneAlt } from "react-icons/fa";
 import './Contacts.css'
 export const Contacts = () => {
   return (
-    <section
+    <section className="py-3"
       style={{
         backgroundColor: "var(--color-jimmy2-400)",
         color: "var(var(--color-jimmy2-950)",
