@@ -11,7 +11,7 @@ export const Services = () => {
       <h3 style={{color:"var(--color-jimmy1-700)"}} className="text-center pt-2">
         Nuestros servicios
       </h3>
-      <div>
+      <div className="d-md-flex flex-wrap">
         <ServiceCard
           imageSource="/images/servicio-personal.jpg"
           titleService="Transporte de personal"

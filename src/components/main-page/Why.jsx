@@ -12,9 +12,11 @@ const iconsStyle = {
 export const Why = () => {
   return (
     <section className="why pb-2">
-      <p className="title rounded mb-0">Transportes Jimmy</p>
+      <div className="title" >
+        <p className="rounded mb-0 mx-auto">Transportes Jimmy</p>
+      </div>
       <h3>¿Porque Viajar con transportes Jimmy?</h3>
-      <section>
+      <section className="d-sm-flex flex-wrap">
         <WhyCards descriptionCard="Servicio de alta calidad y seguridad.">
           <BsFillBookmarkStarFill style={iconsStyle} />
         </WhyCards>
@@ -25,10 +27,10 @@ export const Why = () => {
           <BsPersonFillGear style={iconsStyle} />
         </WhyCards>
         <WhyCards descriptionCard="Experiencia de viaje única">
-          <IoBus style={iconsStyle}  />
+          <IoBus style={iconsStyle} />
         </WhyCards>
         <WhyCards descriptionCard="Contamos con nuestras propias oficinas de embarque ubicados en los principales terminales terrestres de la ciudad.">
-          <HiBuildingOffice style={iconsStyle}  />
+          <HiBuildingOffice style={iconsStyle} />
         </WhyCards>
         {/* 
         <WhyCards sourceImage="../../public/images/20-experiencia.svg" descriptionImage="Icono 20 años experiencia" descriptionCard="Más de 20 años de experienciaen el rubro." />

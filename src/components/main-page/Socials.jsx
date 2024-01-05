@@ -4,7 +4,7 @@ export const Socials = () => {
   return (
     <section className="social py-3">
         <h3>Redes Sociales</h3>
-        <div>
+        <div className='d-sm-flex just justify-content-sm-around'>
             <a href="https://www.facebook.com/transpjimmy">
                 <img src="/images/social-facebook.png" alt="Logo facebook Jimmy" />
             </a>

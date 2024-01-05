@@ -1,5 +1,6 @@
 import React from "react";
 import { FaPhoneAlt } from "react-icons/fa";
+import './Contacts.css'
 export const Contacts = () => {
   return (
     <section
@@ -10,8 +11,9 @@ export const Contacts = () => {
     >
       <h3>Contactate con nosotros</h3>
       <div>
-        <div className="d-flex justify-content-center  align-items-center text-center">
-          <div className="flex-grow-2" style={{width:"50%"}}>
+        <div className="d-flex justify-content-center  align-items-center text-center mx-auto contacto">
+          
+          <div className="w-25">
             <FaPhoneAlt style={{ fontSize: "200%" }}  />
           </div>
           <div className="">
@@ -21,8 +23,8 @@ export const Contacts = () => {
             </p>
           </div>
         </div>
-        <div className="d-flex justify-content-center align-items-center text-center">
-        <div className="flex-grow-2" style={{width:"30%"}} >
+        <div className="d-flex align-items-center text-center mx-auto contacto">
+          <div className="w-25">
             <FaPhoneAlt style={{ fontSize: "200%" }} />
           </div>
           <div>

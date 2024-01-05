@@ -1,0 +1,7 @@
+.contacto{
+    width: 75%;
+    max-width: 386px;
+    @media (min-width:576px) {
+        width: 50%;
+    }
+}

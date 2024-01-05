@@ -3,4 +3,7 @@
     @media (min-width:576px) {
     height: 60vh;
     }
+    @media (min-width:768px) {
+        height: 83vh;
+        }
 }

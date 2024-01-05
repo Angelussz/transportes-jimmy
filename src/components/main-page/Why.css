@@ -2,10 +2,14 @@
     background: var(--color-jimmy1-600);
     color: var(--color-jimmy1-100);
     position: relative;
+    text-align: center;
 }
 .why .title{
-    background-color: var(--color-jimmy2-500);
     font-family: var(--texto-subtitulo);
     position: relative;
     top: -12px;
+}
+.title p{
+    background-color: var(--color-jimmy2-500);
+    width: 60%;
 }

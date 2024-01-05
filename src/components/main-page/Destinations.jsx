@@ -8,10 +8,10 @@ export const Destinations = () => {
         backgroundColor: "var( --color-jimmy1-600)",
         color: "var(--color-jimmy1-100)",
       }}
-      className="pt-2"
+      className="py-2"
     >
       <h3>Destinos</h3>
-      <div >
+      <div className="d-md-flex d-wrap">
         <DestinationCard
           imageDestination="/images/destino-espinar.jpg"
           nameDestination="ESPINAR"
@@ -20,6 +20,7 @@ export const Destinations = () => {
           imageDestination="/images/destino-chamaca.jpeg"
           nameDestination="CHAMACA"
         />
+
       </div>
     </section>
   );

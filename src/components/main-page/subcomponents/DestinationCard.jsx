@@ -1,5 +1,5 @@
 import React from "react";
-
+import './DestinationCard.css'
 export const DestinationCard = ({ imageDestination, nameDestination }) => {
   /* 
   
@@ -10,9 +10,9 @@ export const DestinationCard = ({ imageDestination, nameDestination }) => {
   
   */
   return (
-    <section style={{position:"relative", width:"75%"}} className="m-auto mb-2 pb-2 rounded">
+    <section className="m-auto mb-2 rounded destination-card">
         <img src={imageDestination} alt={`Imagen ${nameDestination}`} className="d-block w-100 rounded" />
-        <p style={{position:"absolute", left:"5px",bottom:"0", backgroundColor:"var(--color-jimmy2-500)", fontSize:"10px"}} className="px-1 rounded-1">{nameDestination}</p>
+        <p className="px-1 rounded-1">{nameDestination}</p>
     </section>
   );
 };
