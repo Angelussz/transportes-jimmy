@@ -9,9 +9,9 @@ export const JimmyApp = () => {
     <div className='JimmyApp'>
       <Navbar />
       <Routes>
-      <Route path='/' element={<Home />} />
-      <Route path='/corporative' element={<Corporative />} />
-      <Route path='/campain' element={<Campain />} />
+        <Route path='/' element={<Home />} />
+        <Route path='/corporative' element={<Corporative />} />
+        <Route path='/campain' element={<Campain />} />
         <Route path='/contact' element={<Contact />} />
         <Route path='/termsandconditions' element={<TermsAndConditions />} />
       </Routes>

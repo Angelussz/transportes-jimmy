@@ -40,6 +40,7 @@ export const Carousel = () => {
         data-bs-slide="prev"
       >
         <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+        <div className="carousel-control-background"></div>
         <span className="visually-hidden">Previous</span>
       </button>
       <button
@@ -49,6 +50,7 @@ export const Carousel = () => {
         data-bs-slide="next"
       >
         <span className="carousel-control-next-icon" aria-hidden="true"></span>
+        <div className="carousel-control-background"></div>
         <span className="visually-hidden">Next</span>
       </button>
     </div>
