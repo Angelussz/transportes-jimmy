@@ -1,0 +1,14 @@
+.terminos h1{
+        color: var(--color-jimmy1-700)
+}
+.terminos ol{
+    /* margin: 0 140px; */
+
+}
+
+.terminos ol>li{
+    background-color: var(--color-jimmy1-600);
+}
+.terminos ol:first-child{
+    background-color: red;
+}

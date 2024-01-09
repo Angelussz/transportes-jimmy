@@ -8,7 +8,7 @@ export const Destinations = () => {
         backgroundColor: "var( --color-jimmy1-600)",
         color: "var(--color-jimmy1-100)",
       }}
-      className="py-2"
+      className="py-5"
     >
       <h3>Destinos</h3>
       <div className="d-md-flex d-wrap">

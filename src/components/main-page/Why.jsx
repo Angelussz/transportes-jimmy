@@ -6,14 +6,14 @@ import { IoBus } from "react-icons/io5";
 import "./Why.css";
 const iconsStyle = {
   color: "var(--color-jimmy1-300)",
-  fontSize: "250%",
+  fontSize: "300%",
   marginBottom: "20px",
 };
 export const Why = () => {
   return (
     <section className="why pb-2">
-      <div className="title" >
-        <p className="rounded mb-0 mx-auto">Transportes Jimmy</p>
+      <div className="title mx-auto" >
+        <h3 className="rounded display-6">Transportes Jimmy</h3>
       </div>
       <h3>¿Porque Viajar con transportes Jimmy?</h3>
       <section className="d-sm-flex flex-wrap">

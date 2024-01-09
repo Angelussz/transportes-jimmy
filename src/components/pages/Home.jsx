@@ -3,13 +3,13 @@ import { Carousel,Why,Services,Destinations,Contacts,Payments,Socials} from "../
 export const Home = () => {
   return (
     <div>
-    <Carousel />
-    <Why />
-    <Services />
-    <Destinations />
-    <Payments />
-    <Contacts />
-    <Socials />
+      <Carousel />
+      <Why />
+      <Services />
+      <Destinations />
+      <Payments />
+      <Contacts />
+      <Socials />
     </div>
     
   );

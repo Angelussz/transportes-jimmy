@@ -6,7 +6,7 @@ export const Services = () => {
       style={{
         backgroundColor: "var(--color-jimmy1-100)",
       }}
-      className="pb-4"
+      className="py-5"
     >
       <h3 style={{color:"var(--color-jimmy1-700)"}} className="text-center pt-2">
         Nuestros servicios
@@ -30,7 +30,7 @@ export const Services = () => {
         <ServiceCard
           imageSource="/images/servicio-contingencia.jpg"
           titleService="Transporte de Contingencia"
-          descriptionService="Transporte especializado ante contingencia social (huelgas o paros), garantizando la continuidad operativa de la unidad minera u empresa."
+          descriptionService="Transporte especializado ante contingencia social (huelgas o paros),garantizando la continuidad operativa de la unidad minera u empresa."
         />
       </div>
     </section>

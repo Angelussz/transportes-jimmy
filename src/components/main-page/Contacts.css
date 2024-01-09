@@ -1,3 +1,45 @@
+
+.contacts-container{
+    position: relative;
+    width: 100%;
+    height: 650px;
+    @media (max-width:1400px) {
+        height: 550px;
+    };
+    @media (max-width:576px) {
+        height: 430px;
+    }
+}
+
+.contacts-left-content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 50%;
+}
+
+.contact-right-content{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 50%;
+    @media (max-width:1400px) {
+        width: 100%;
+    };
+    
+}
+
+.contact-img{
+    position: absolute;
+    height: 400px;
+    width: 600px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .contacto{
     width: 75%;
     max-width: 386px;
