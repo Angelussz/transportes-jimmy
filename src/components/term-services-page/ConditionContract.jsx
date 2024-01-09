@@ -1,16 +1,16 @@
 import React from "react";
 import './ConditionContract.css'
 export const ConditionContract = () => {
+  // terminos my-5
   return (
-    <div className="terminos my-5">
+    <div className="terminos container-lg">
       <h1>Condiciones Generales del Contrato de Viaje</h1>
       <ol>
         <li>Verificación de los datos en la compra del boleto de viaje </li>
         <ul>
-          <li>Compra Presencial:</li>
+          <li style={{listStyle:"none"}}>Compra Presencial:</li>
           <ul>
             <li>
-                {/* &#40 DNI/CE/CI/PASAPORTE */}
               Al adquirir un boleto de viaje de manera presencial, el pasajero
               debe presentar su documento de identidad &#40;DNI,CE,Ci, PASAPORTE&#41;.
               Debe proporcionar los siguientes datos: nombres y apellidos, razón
@@ -22,7 +22,7 @@ export const ConditionContract = () => {
               se procede a la emisión del boleto de viaje
             </li>
           </ul>
-          <li>Compra por Teléfono:</li>
+          <li style={{listStyle:"none"}}>Compra por Teléfono:</li>
           <ul>
             <li>
               Al comprar un boleto de viaje por teléfono, el pasajero debe

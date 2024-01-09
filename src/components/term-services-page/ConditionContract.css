@@ -1,14 +1,16 @@
 .terminos h1{
         color: var(--color-jimmy1-700)
 }
-.terminos ol{
+.terminos ol>ul{
     /* margin: 0 140px; */
+    font-family: var(--texto-parrafos);
+    font-size:large;
 
 }
 
 .terminos ol>li{
     background-color: var(--color-jimmy1-600);
-}
-.terminos ol:first-child{
-    background-color: red;
+    font-family: var(--texto-subtitulo);
+    font-size:large;
+    font-weight: bolder;
 }
